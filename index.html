@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>تحميل تطبيق Speaking Hands</title>
+  <style>
+    :root {
+      --bg: #f6fbff;
+      --card: #ffffff;
+      --accent: #4CAF50;
+      --muted: #6b7280
+    }
+
+    html,
+    body {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial, "Noto Sans Arabic", "Cairo", sans-serif;
+      background: linear-gradient(180deg, var(--bg), #eaf2ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      color: #0f172a;
+    }
+
+    .container {
+      max-width: 720px;
+      width: 100%
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(13, 28, 63, 0.08)
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 22px
+    }
+
+    p.lead {
+      margin: 0 0 18px;
+      color: var(--muted)
+    }
+
+    .grid {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      flex-wrap: wrap
+    }
+
+    .qr {
+      flex: 0 0 180px;
+      text-align: center
+    }
+
+    .qr img {
+      width: 160px;
+      height: 160px;
+      border-radius: 12px;
+      border: 1px solid #e6eefc
+    }
+
+    .info {
+      flex: 1;
+      min-width: 200px
+    }
+
+    .btn-download {
+      display: flex;
+      justify-content: center;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 10px;
+      box-shadow: 0 6px 18px rgba(11, 110, 253, 0.18)
+    }
+
+    .small {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 12px
+    }
+
+    ul.checks {
+      padding-left: 1.1rem;
+      margin: 12px 0
+    }
+
+    ul.checks li {
+      margin: 8px 0
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: 13px;
+      color: var(--muted)
+    }
+
+    code {
+      background: #f3f6ff;
+      padding: 6px 8px;
+      border-radius: 6px;
+      font-size: 13px
+    }
+
+    @media(max-width:520px) {
+      .grid {
+        flex-direction: column
+      }
+
+      .qr {
+        order: 0
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <h1>تحميل تطبيق <span style="color:var(--accent)">Speaking Hands - الأيادي الناطقة </span></h1>
+        <p class="lead">اضغط زر التحميل لتنزيل ملف APK وتثبيته مباشرة على جهاز Android.</p>
+      </header>
+
+      <section class="grid">
+
+
+        <div class="info">
+          <a class="btn-download" href="https://expo.dev/artifacts/eas/ispYJ75XnxAvszBBqffx2A.apk" download>تحميل
+            التطبيق (APK)</a>
+        </div>
+      </section>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
